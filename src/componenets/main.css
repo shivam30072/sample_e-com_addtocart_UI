@@ -1,0 +1,132 @@
+body {
+  background-color: rgb(241, 240, 244);
+  color: black;
+}
+
+.logo {
+  width: 50px;
+  position: absolute;
+  right: 50%;
+  top: 2px;
+  
+}
+
+svg {
+  height: 20px;
+  width: 40px;
+}
+
+p{
+    cursor: pointer;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background-color: white;
+}
+
+.nav-left {
+  margin-left: 4rem;
+  display: flex;
+  gap: 5rem;
+  text-transform: uppercase;
+  color: black;
+}
+
+.nav-right {
+  margin-right: 2rem;
+  margin-top: 0.6rem;
+  display: flex;
+ 
+}
+
+.search-box{
+  border-radius: 5px;
+  padding: 10px;
+  height: 10px;
+}
+
+.btn{
+  height: 35px;
+  width: 50%;
+  margin-left: .3rem;
+  border-radius: 25px;
+  border: 2px solid black;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.allProducts{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+
+}
+
+.allProducts img{
+ margin: 10px;
+}
+
+.img1{
+  position: relative;
+}
+
+/* .img1:hover{
+
+} */
+/* .overlay{
+  margin: 10px;
+  position: absolute;
+  width: 100%; 
+  height: 30%; 
+  background-color:#ffe672; 
+  /* animation: shutter-in-top 1s ease 0s 1 normal none; */
+/* } */
+
+
+/* @keyframes shutter-in-top {
+			
+  0% {
+    transform:rotateX(-100deg);
+    transform-origin:top;
+    opacity:0;
+  }
+  100% {
+    transform:rotateX(0deg);
+    transform-origin:top;
+    opacity:1;
+  }
+} */ 
+
+.c-btn{
+  padding: 5px;
+  background-color:darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.r-btn{
+  padding: 5px;
+  background-color:darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+.atc{
+  border-radius: 50%;
+  background-color: lightblue;
+  position: absolute;
+  left: 105px;
+}
+
+/* .cont{
+  background-color: black;
+} */
